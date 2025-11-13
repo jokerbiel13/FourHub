@@ -46,7 +46,7 @@ local Window = WindUI:CreateWindow({
     BackgroundImageTransparency = 0.42,
     HideSearchBar = false,
     ScrollBarEnabled = true,
-    --Background = "rbxassetid://106924593304955",
+    Background = "rbxassetid://106924593304955",
 
         -- ↓ Optional. You can remove it.
     --[[ You can set 'rbxassetid://' or video to Background.
@@ -67,8 +67,8 @@ local Window = WindUI:CreateWindow({
     KeySystem = { 
         Key = { "fh20" },
         Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
-        --Thumbnail = {
-        --Image = "rbxassetid://89646996763231",
+        Thumbnail = {
+        Image = "rbxassetid://89646996763231",
             Title = "Four Hub",
         },
         URL = "https://discord.gg/cUwR4tUJv3",
