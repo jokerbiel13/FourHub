@@ -68,7 +68,7 @@ local Window = WindUI:CreateWindow({
         Key = { "fh20" },
         Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
         Thumbnail = {
-        Image = "rbxassetid://89646996763231",
+        Image = "rbxassetid://106794985458846",
             Title = "Four Hub",
         },
         URL = "https://discord.gg/cUwR4tUJv3",
