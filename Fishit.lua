@@ -16,14 +16,14 @@ local Window = WindUI:CreateWindow({
     Folder = "FOUR_HUB",
     Size = UDim2.fromOffset(260, 290),
     Transparent = true,
-    Theme = "Dark",
+    Theme = "Blue",
     SideBarWidth = 170,
     HasOutline = true,
     User = {
         Enabled = true,
         Anonymous = false,
         Callback = function()
-            WindUI:SetTheme("Dark")
+            WindUI:SetTheme("Blue")
         end,
     },
 })
@@ -35,7 +35,7 @@ Window:Tag({
 })
 
 WindUI:Notify({
-    Title = "Lexs Hub Loaded",
+    Title = "FourHub Loaded",
     Content = "UI loaded successfully!",
     Duration = 3,
     Icon = "bell",
