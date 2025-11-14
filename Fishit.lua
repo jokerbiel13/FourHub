@@ -11,7 +11,7 @@ end
 
 local Window = WindUI:CreateWindow({
     Title = "FourHub",
-    Icon = "rbxassetid://106794985458846",
+    Icon = "rbxassetid://137518578026159",
     Author = "Premium | Fish It",
     Folder = "FOUR_HUB",
     Size = UDim2.fromOffset(260, 290),
