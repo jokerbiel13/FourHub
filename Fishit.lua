@@ -60,7 +60,7 @@ Tab1:Button({
     Desc = "click to copy link",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/YYbw8KM5x4")
+            setclipboard("https://discord.gg/cUwR4tUJv3")
         end
     end
 })
