@@ -10,8 +10,8 @@ else
 end
 
 local Window = WindUI:CreateWindow({
-    Title = "Lexs Hub",
-    Icon = "rbxassetid://71947103252559",
+    Title = "Four Hub",
+    Icon = "rbxassetid://137518578026159",
     Author = "Premium | Fish It",
     Folder = "LEXS_HUB",
     Size = UDim2.fromOffset(260, 290),
@@ -35,7 +35,7 @@ Window:Tag({
 })
 
 WindUI:Notify({
-    Title = "Lexs Hub Loaded",
+    Title = "Four Hub Loaded",
     Content = "UI loaded successfully!",
     Duration = 3,
     Icon = "bell",
@@ -60,7 +60,7 @@ Tab1:Button({
     Desc = "click to copy link",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/YYbw8KM5x4")
+            setclipboard("https://discord.gg/cUwR4tUJv3")
         end
     end
 })
