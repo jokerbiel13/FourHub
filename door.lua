@@ -1869,7 +1869,7 @@ local Social = Info:Paragraph({
 local Discord = Info:Paragraph({
     Title = "Discord",
     Desc = "Join our discord for more scripts!",
-    Image = "rbxassetid://137518578026159",
+    Image = "rbxassetid://124135407373085",
     ImageSize = 30,
     Thumbnail = "",
     ThumbnailSize = 0,
@@ -1885,3 +1885,4 @@ local Discord = Info:Paragraph({
         }
     }
 })
+
