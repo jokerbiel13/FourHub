@@ -9,21 +9,31 @@ else
     print("✓ UI loaded successfully!")
 end
 
+WindUI:KeySystem({ 
+    Key = { "fh20" }, -- Suas chaves válidas. Adicione mais separadas por vírgula.
+    Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
+    Title = "Four Hub", -- Título da janela de Key
+    URL = "https://discord.gg/cUwR4tUJv3",
+    SaveKey = true, -- Salva a chave no PC do usuário para uso futuro
+    -- Se quiser a Thumbnail, descomente e adicione a imagem:
+    -- Thumbnail = { Image = "rbxassetid://89646996763231" },
+})
+
 local Window = WindUI:CreateWindow({
-    Title = "Lexs Hub",
-    Icon = "rbxassetid://71947103252559",
+    Title = "Four Hub",
+    Icon = "rbxassetid://137518578026159",
     Author = "Premium | Fish It",
     Folder = "LEXS_HUB",
     Size = UDim2.fromOffset(260, 290),
     Transparent = true,
-    Theme = "Dark",
+    Theme = "Blue",
     SideBarWidth = 170,
     HasOutline = true,
     User = {
         Enabled = true,
         Anonymous = false,
         Callback = function()
-            WindUI:SetTheme("Dark")
+            WindUI:SetTheme("Blue")
         end,
     },
 })
@@ -35,7 +45,7 @@ Window:Tag({
 })
 
 WindUI:Notify({
-    Title = "Lexs Hub Loaded",
+    Title = "Four Hub Loaded",
     Content = "UI loaded successfully!",
     Duration = 3,
     Icon = "bell",
@@ -60,7 +70,7 @@ Tab1:Button({
     Desc = "click to copy link",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/YYbw8KM5x4")
+            setclipboard("https://discord.gg/cUwR4tUJv3")
         end
     end
 })
