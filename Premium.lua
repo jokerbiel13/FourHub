@@ -9,14 +9,16 @@ else
     print("✓ UI loaded successfully!")
 end
 
-WindUI:KeySystem({ 
-    Key = { "fh20" }, -- Suas chaves válidas. Adicione mais separadas por vírgula.
-    Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
-    Title = "Four Hub", -- Título da janela de Key
-    URL = "https://discord.gg/cUwR4tUJv3",
-    SaveKey = true, -- Salva a chave no PC do usuário para uso futuro
-    -- Se quiser a Thumbnail, descomente e adicione a imagem:
-    -- Thumbnail = { Image = "rbxassetid://89646996763231" },
+KeySystem = { 
+        Key = { "fh20" },
+        Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
+        --Thumbnail = {
+        --Image = "rbxassetid://89646996763231",
+            Title = "Four Hub",
+        },
+        URL = "https://discord.gg/cUwR4tUJv3",
+        SaveKey = true,
+    },
 })
 
 local Window = WindUI:CreateWindow({
