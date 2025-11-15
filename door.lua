@@ -156,7 +156,7 @@ end
 local Window = ui:CreateWindow({
     Title = "FOURHUB",
     Icon = "rbxassetid://137518578026159", 
-    Author = "Doors | Premium Version",
+    Author = "Doors | Lite Version",
     Folder = "FOURHUB_Doors_config",
     Size = UDim2.fromOffset(500, 350),
     Transparent = getgenv().TransparencyEnabled,
@@ -226,7 +226,7 @@ end)
 
 pcall(function()
     Window:Tag({
-        Title = "4.2.7",
+        Title = "2.9",
         Color = Color3.fromHex("#30ff6a") 
     })
 end)
@@ -1885,4 +1885,5 @@ local Discord = Info:Paragraph({
         }
     }
 })
+
 
