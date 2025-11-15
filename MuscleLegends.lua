@@ -9,7 +9,7 @@ local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.
 local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
 -- 🏠 Creation
 local Window = Library:CreateWindow{
-    Title ="FourHub - Muscle Legends (dsc.gg/fourhub)",
+    Title = "FourHub - Muscle Legends (dsc.gg/fourhub)",
     SubTitle = "Powered by FOURHUB TEAM",
     TabWidth = 125,
     Size = UDim2.fromOffset(830, 525),
