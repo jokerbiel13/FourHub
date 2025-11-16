@@ -35,8 +35,8 @@ end
 
 -- Initialize main GUI
 local main = lib:Load({
-    Title = '99 Night Forest '..formatVersion(LRM_ScriptVersion)..' | ' .. gradient("zzzhub").. " | ",
-    ToggleButton = "rbxassetid://100227182680708",
+    Title = '99 Night Forest '..formatVersion(LRM_ScriptVersion)..' | ' .. gradient("fourhub").. " | ",
+    ToggleButton = "rbxassetid://137518578026159",
 })
 
 -- Create tabs
@@ -96,7 +96,7 @@ var.WelcomeParagraph = sections.Welcome:AddParagraph({
     Description = "Please wait..\nIf you've been stuck on this for a long time please join our discord and report it.\nYou could also try:\n- Re-execute\n- Rejoin"
 })
 
-var.WelcomeParagraph:SetTitle(gradient("Welcome to Avantrix SCRIPTS!"))
+var.WelcomeParagraph:SetTitle(gradient("Welcome to FourHub 99 Nights!"))
 var.WelcomeParagraph:SetDesc([[<font color="rgb(255,255,255)">NEWS:</font>
 [+] Auto Eat System Added
 [+] Chest Finder System Added
