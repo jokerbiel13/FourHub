@@ -23,17 +23,6 @@ else
     warn("Your exploit does not support setfpscap.")
 end
 
-KeySystem = { 
-        Key = { "fh20" },
-        Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
-        --Thumbnail = {
-        --Image = "rbxassetid://89646996763231",
-            Title = "Four Hub",
-        },
-        URL = "https://discord.gg/cUwR4tUJv3",
-        SaveKey = true,
-    },
-
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
     Title = "FOURHUB",
@@ -52,6 +41,18 @@ local Window = WindUI:CreateWindow({
         Anonymous = false
     },
 });
+
+KeySystem = { 
+        Key = { "fh20" },
+        Note = "Resgate a key em nosso discord .gg/cUwR4tUJv3",
+        --Thumbnail = {
+        --Image = "rbxassetid://89646996763231",
+            Title = "Four Hub",
+        },
+        URL = "https://discord.gg/cUwR4tUJv3",
+        SaveKey = true,
+    },
+
 Window:EditOpenButton({
     Title = "FOURHUB - Open",
     Icon = "monitor",
