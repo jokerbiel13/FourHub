@@ -14,7 +14,7 @@ local Window = Library:Window({
     },
     CloseUIButton = {
         Enabled = true,
-        Text = "fourhub"
+        Text = "FourHub"
     }
 })
 
