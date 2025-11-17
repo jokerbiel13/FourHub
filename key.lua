@@ -1,6 +1,6 @@
 -- CONFIG DO KEY SYSTEM
 local KeySystem = {
-    Key = "fourhub",
+    Key = "fh20",
     LoadURL = "https://raw.githubusercontent.com/jokerbiel13/FourHub/refs/heads/main/bfv2.lua",
     Discord = "https://discord.gg/cUwR4tUJv3"
 }
