@@ -5,9 +5,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zzxzs
 -- Create Main Window
 local Window = Library:Window({
     Title = "FourHub",
-    Desc = "FourHublegends of speed script",
+    Desc = "FourHub legends of speed script",
     Icon = 105059922903197,
-    Theme = "Darke",
+    Theme = "Dark",
     Config = {
         Keybind = Enum.KeyCode.LeftControl,
         Size = UDim2.new(0, 500, 0, 400)
