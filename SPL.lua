@@ -6,7 +6,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zzxzs
 local Window = Library:Window({
     Title = "FourHub",
     Desc = "FourHub legends of speed script",
-    Icon = 105059922903197,
+    Icon = 137518578026159,
     Theme = "Dark",
     Config = {
         Keybind = Enum.KeyCode.LeftControl,
@@ -14,7 +14,7 @@ local Window = Library:Window({
     },
     CloseUIButton = {
         Enabled = true,
-        Text = "FourHub"
+        Text = "Open Menu"
     }
 })
 
