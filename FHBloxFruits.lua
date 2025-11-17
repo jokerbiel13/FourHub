@@ -1,7 +1,7 @@
 -- CONFIG DO KEY SYSTEM
 local KeySystem = {
     Key = "fh20", -- a chave que o usuário deve digitar
-    LoadURL = "https://meusite.com/meuscript.lua", -- script que vai carregar SE a key estiver certa
+    LoadURL = "https://raw.githubusercontent.com/jokerbiel13/FourHub/refs/heads/main/bfv2.lua", -- script que vai carregar SE a key estiver certa
     Discord = "https://discord.gg/cUwR4tUJv3" -- link do Discord para pegar a key
 }
 
