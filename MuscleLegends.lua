@@ -1,3 +1,4 @@
+-- joker solved the kill aura bug
 if _G.MainScriptLoaded then
     warn("🚫 Main script already loaded. Preventing duplicate execution.")
     return
@@ -7,7 +8,7 @@ _G.MainScriptLoaded = true
 local Library = loadstring(game:HttpGetAsync("https://github.com/ActualMasterOogway/Fluent-Renewed/releases/latest/download/Fluent.luau"))()
 local SaveManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/SaveManager.luau"))()
 local InterfaceManager = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ActualMasterOogway/Fluent-Renewed/master/Addons/InterfaceManager.luau"))()
--- 🏠 Creation
+-- 🏠 Creation 
 local Window = Library:CreateWindow{
     Title = "FOURHUB - Muscle Legends (dsc.gdyfourhub)",
     SubTitle = "Powered by FOURHUB TEAM",
