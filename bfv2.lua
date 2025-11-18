@@ -26,7 +26,7 @@ end
 local WindUI = (loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua")))();
 local Window = WindUI:CreateWindow({
     Title = "FOURHUB",
-    Icon = "rbxassetid://137518578026159",
+    Icon = "rbxassetid://100911944403959",
     Author = "Blox Fruit | Lite Version",
     Folder = "FOURHUB_BF",
     Size = UDim2.fromOffset(550, 300),
