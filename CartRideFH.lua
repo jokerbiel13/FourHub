@@ -10,7 +10,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
     Name = "Cart Ride Around Nothing by Jokerzin",
-    Icon = 0,
+    Icon = 70975600266728,
     LoadingTitle = "Cart Ride Around Nothing",
     LoadingSubtitle = "by jokerzin",
     ShowText = "RayField",
@@ -40,7 +40,7 @@ MainTab:CreateButton({
     Callback = function()
         Rayfield:Notify({Title = "Fling GUI", Content = "Loading…", Duration = 2})
         local ok, result = pcall(function()
-            return loadstring(game:HttpGet("https://pastebin.com/raw/mvQubj1P", true))()
+            return loadstring(game:HttpGet("https://raw.githubusercontent.com/jokerbiel13/FourHub/refs/heads/main/Fling.lua", true))()
         end)
         if ok then
             Rayfield:Notify({Title = "Fling GUI", Content = "Done! Fling GUI loaded.", Duration = 4})
