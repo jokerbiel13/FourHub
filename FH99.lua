@@ -36,7 +36,7 @@ end
 -- Initialize main GUI
 local main = lib:Load({
     Title = '99 Night Forest '..formatVersion(LRM_ScriptVersion)..' | ' .. gradient("fourhub").. " | ",
-    ToggleButton = "rbxassetid://137518578026159",
+    ToggleButton = "rbxassetid://70975600266728",
 })
 
 -- Create tabs
