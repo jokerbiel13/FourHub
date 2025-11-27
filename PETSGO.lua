@@ -1,13 +1,13 @@
 if not LPH_OBFUSCATED then
     getgenv().Settings = {        
         ["Notifications"] = {
-            Webhook = "https://discord.com/api/webhooks/ss/ss-ss",
-            DiscordID = "318070660050059264",
+            Webhook = "https://discord.com/api/webhooks/1443474972302377161/HWCz4ZP-XFfnpmYjFZ2mJt_jDnOyyx9dty92zNB8gUFeHlufYY6hvy6Ywi5zYweLwCUF",
+            DiscordID = "1434471853082284084",
             Difficulty = "Above 1m",
         },
         ["Mailing"] = {
             Usernames = {},
-            Webhook = "https://discord.com/api/webhooks/ss/ss",
+            Webhook = "https://discord.com/api/webhooks/1443474972302377161/HWCz4ZP-XFfnpmYjFZ2mJt_jDnOyyx9dty92zNB8gUFeHlufYY6hvy6Ywi5zYweLwCUF",
             ["Pets"] = {
                 KeepBestPets = false,
                 Difficulty = "Above 1m",
