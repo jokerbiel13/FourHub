@@ -1,3 +1,4 @@
+--slc
 if not LPH_OBFUSCATED then
     getgenv().Settings = {        
         ["Notifications"] = {
@@ -300,7 +301,7 @@ for _, v in next, {
     end
 end
 for _, v in next, LocalPlayer.PlayerGui:GetChildren() do
-    if v.Name ~= "System Exodus" then
+    if v.Name ~= "FourHub" then
         v.Enabled = false
     end
 end
@@ -395,7 +396,7 @@ pcall(function()
     local ImageLogo = Instance.new("ImageLabel")
     local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
     
-    SystemExodus.Name = "System Exodus"
+    SystemExodus.Name = "FourHub"
     SystemExodus.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     SystemExodus.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     SystemExodus.DisplayOrder = 999
@@ -574,7 +575,7 @@ pcall(function()
     Discord.Size = UDim2.new(1.76415002, 0, 0.573458791, 0)
     Discord.ZIndex = 2
     Discord.Font = Enum.Font.FredokaOne
-    Discord.Text = "discord.gg/Jk28atjPas"
+    Discord.Text = "discord.gg/cUwR4tUJv3"
     Discord.TextColor3 = Color3.fromRGB(248, 250, 255)
     Discord.TextScaled = true
     Discord.TextSize = 100.000
@@ -600,7 +601,7 @@ pcall(function()
     UIAspectRatioConstraint_3.Parent = ImageLogo
     UIAspectRatioConstraint_3.AspectRatio = 0.988
 end)
-local UI = LocalPlayer.PlayerGui:WaitForChild("System Exodus")
+local UI = LocalPlayer.PlayerGui:WaitForChild("FourHub")
 UI = UI:WaitForChild("Whole UI")
 if Debug.DisableUI then
     UI.Parent.Enabled = false
@@ -2173,7 +2174,7 @@ local function SendItem(Class, UID, ItemTable, Username)
                     "**<:User:1313379146759536700> Account:** ||`"..LocalPlayer.Name.."`||",
                 }
                 local Message = {
-                    ["username"] = "System Exodus | Mail Notifier",
+                    ["username"] = "FourHub | Mail Notifier",
                     ["avatar_url"] = "https://i.gyazo.com/dbefd0df338c7ff9c08fc85ecea0df94.png",
                     ["content"] = (table.find({"Exclusive", "Secret"}, Rarity) and Settings.Notifications["DiscordID"] and Settings.Notifications["DiscordID"] ~= "" and "<@"..tostring(Settings.Notifications["DiscordID"])..">") or "",
                     ["embeds"] = {
@@ -2183,8 +2184,8 @@ local function SendItem(Class, UID, ItemTable, Username)
                             ["description"] = table.concat(Description, "\n"),
                             ["timestamp"] = DateTime.now():ToIsoDate(),
                             ["footer"] = {
-                                ["icon_url"] = "https://i.gyazo.com/784ff41bd2b15e0046c8b621fab31990.png",
-                                ["text"] = "@Jxnt - discord.gg/Jk28atjPas"
+                                ["icon_url"] = "https://i.ibb.co/XxTqVYMG/390621c1fbb20a32576baa7ca9e44180.jpg",
+                                ["text"] = "@FourHub - discord.gg/cUwR4tUJv3"
                             },
                             ["thumbnail"] = { 
                                 ["url"] = "https://biggamesapi.io/image/"..Library.Functions.ParseAssetId(ItemTable:GetIcon())
@@ -2357,7 +2358,7 @@ local function Webhook(Return)
                 "**<:Pet:1236781782314127410> Exist Count:** `"..AddCommas(Exist).."`",
             }
             local Message = {
-                ["username"] = "System Exodus | Roll Notifier",
+                ["username"] = "FourHub | Roll Notifier",
                 ["avatar_url"] = "https://i.gyazo.com/dbefd0df338c7ff9c08fc85ecea0df94.png",
                 ["content"] = (table.find({"Exclusive", "Secret"}, Rarity) and Settings.Notifications["DiscordID"] and Settings.Notifications["DiscordID"] ~= "" and "<@"..tostring(Settings.Notifications["DiscordID"])..">") or "",
                 ["embeds"] = {
@@ -2367,8 +2368,8 @@ local function Webhook(Return)
                         ["description"] = table.concat(Description, "\n"),
                         ["timestamp"] = DateTime.now():ToIsoDate(),
                         ["footer"] = {
-                            ["icon_url"] = "https://i.gyazo.com/784ff41bd2b15e0046c8b621fab31990.png",
-                            ["text"] = "@Jxnt - discord.gg/Jk28atjPas"
+                            ["icon_url"] = "https://i.ibb.co/XxTqVYMG/390621c1fbb20a32576baa7ca9e44180.jpg",
+                            ["text"] = "@FourHub - discord.gg/cUwR4tUJv3"
                         },
                         ["thumbnail"] = { 
                             ["url"] = "https://biggamesapi.io/image/"..Library.Functions.ParseAssetId(Item:GetIcon())
@@ -2387,7 +2388,7 @@ local function Webhook(Return)
                     Message["content"] = ""
                 end]]--
                 request({
-                    Url = "https://discord.com/api/webhooks/ss/ss-ss",
+                    Url = "https://discord.com/api/webhooks/1443479343673118841/eWNMfCoXyzEoOdJcelnZKOIv6Yp8Nep2Oeup555iGDyML90cSj7mZfo78E1ulYvIcX6C",
                     Method = "POST",
                     Headers = {["Content-Type"] = "application/json"}, 
                     Body = HttpService:JSONEncode(Message)
@@ -2592,7 +2593,7 @@ if BreakablesScript then
             local Closest, Distance
             for Name, Table in next, Breakables do
                 if Table.Id:find("Ore") then continue end
-                if Debug.DisablePinata and (Table.Id:find("Pinata") or Table.Id:find("Piñata")) then continue end
+                if Debug.DisablePinata and (Table.Id:find("Pinata") or Table.Id:find("PiÃ±ata")) then continue end
 
                 if Table.Id:lower():find("chest") then
                     Library.Network.UnreliableFire("Breakables_PlayerDealDamage", Table.Uid)
@@ -2623,7 +2624,7 @@ if BreakablesScript then
             for Name, Table in next, Breakables do
                 for PetId, _ in next, Pets do
                     if Table.Id:find("Ore") then continue end
-                    if Debug.DisablePinata and (Table.Id:find("Pinata") or Table.Id:find("Piñata")) then continue end
+                    if Debug.DisablePinata and (Table.Id:find("Pinata") or Table.Id:find("PiÃ±ata")) then continue end
                     if not Pets_To_Breakables[PetId] and not PetId_BreakableId[PetId] and not BreakableId_PetId[Name] then
                         PetId_BreakableId[PetId] = Name
                         BreakableId_PetId[Name] = PetId
