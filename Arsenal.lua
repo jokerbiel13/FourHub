@@ -37,7 +37,7 @@ end
 notify("✅ FOURHUB Loaded")
 
 local gui = Instance.new("ScreenGui", player.PlayerGui)
-gui.Name = "FOURHUB | SKIBIDI TOLIET | Arsenal"
+gui.Name = "FOURHUB | BETA TEST | Arsenal"
 gui.ResetOnSpawn = false
 
 local frame = Instance.new("Frame")
