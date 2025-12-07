@@ -1,3 +1,4 @@
+--joker
 --// Services
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
@@ -2046,7 +2047,7 @@ task.spawn(function()
             ImageButton.BackgroundTransparency = 0.8
             ImageButton.Position = UDim2.new(0.9, 0, 0.1, 0)
             ImageButton.Size = UDim2.new(0, 50, 0, 50)
-            ImageButton.Image = "rbxassetid://90319448802378"
+            ImageButton.Image = "rbxassetid://70975600266728"
             ImageButton.Draggable = true
             ImageButton.Transparency = 0.2
 
