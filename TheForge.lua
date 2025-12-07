@@ -5,12 +5,6 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
--- Check Game ID
-if game.PlaceId ~= 7671049560 then
-    warn("Script only runs on Game ID: 7671049560. Current Game ID: " .. tostring(game.PlaceId))
-    return
-end
-
 -- RF mua đồ Proximity (Maria shop)
 local ProximityPurchaseRF = ReplicatedStorage
     :WaitForChild("Shared")
